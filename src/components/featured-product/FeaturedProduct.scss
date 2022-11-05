@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: rgb(231, 219, 219);
+    padding: 10px;
+    min-height: 100vh;
+
+    .card-wrapper {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .card-container {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 47%;
+        }
+    }
+}
